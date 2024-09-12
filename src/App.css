@@ -7,39 +7,14 @@ body{
   justify-content: center;
   align-items: center;
  
-  /* background-image:url(./Assets/bg-2.jpg); */
+  background-image:url(./Assets/bg-1.jpg); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
    animation:change 60s infinite ease-in-out ; 
 }
-@keyframes change {
 
-  0%{
-    background-image: url(./Assets/bg-10.jpeg);
-  }
-  100%{
-    background-image: url(./Assets/bg-15.jpg);
-  }
-  
- 
- 
-}
-
-
-@media screen and (min-width:640px) {
-  body{
-    height:100vh;
-  }
- 
-} 
-@media screen and (min-width:768px) {
-  body{
-    height:100vh;
-  }
- 
-} 
 /* .clear-img{
     animation: spin 55s linear infinite
 }

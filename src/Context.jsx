@@ -37,7 +37,7 @@ const Context = (data) => {
             }
             console.log();
             
-           if(d.response.status=='404'){
+           if(d.response.status=== 404){
             setWeather('Error 404 Enter Correct city Name !')
            }
            

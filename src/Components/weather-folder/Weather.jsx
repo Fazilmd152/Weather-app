@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react'
+import React, { useContext} from 'react'
 import error from '../../Assets/404.png'
 import clear from '../../Assets/clear.png'
 import mist from '../../Assets/mist.png'
@@ -13,11 +13,6 @@ const Weather = () => {
 
 const{desc,weather,temp}=useContext(WeatherContext)
 
-function kelvinToCelsius(temp) {
-  return ;
-  
-  
-}
 
 
 
